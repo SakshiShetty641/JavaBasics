@@ -2,3 +2,8 @@
 Class - Collection of variables and methods
 Object - object is the instance of the class
 Methods - Task that needs to be executed
+
+
+Destructor ==> destructor in Java? It is a special method that automatically gets called when an object is no longer used.
+When an object completes its life-cycle the garbage collector deletes that object and deallocates or releases the memory occupied by the object.
+
