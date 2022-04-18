@@ -48,5 +48,12 @@ public class Operators {
         System.out.println(--number);
         System.out.println(number);
 
+
+
+        //Comparison Operators
+        // ==> == equal to
+        // ==> != not equal to
+        // > < greater than, lesser than
+
     }
 }
