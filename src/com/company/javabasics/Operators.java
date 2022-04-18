@@ -49,11 +49,35 @@ public class Operators {
         System.out.println(number);
 
 
-
         //Comparison Operators
         // ==> == equal to
         // ==> != not equal to
         // > < greater than, lesser than
 
+
+        // TODO: 18/04/22 - Logical Operators -> &&-and  ||-Or
+        int a1 = 10;
+        int b1 = 20;
+
+        // Or operator - returns true when both the conditions is true
+
+        if (a > 30 && b > 30)
+            System.out.println("Numbers are graeter than 30");
+        else
+            System.out.println("Numbers are less than 30");
+
+        // Or operator - returns true when atleast one is true
+
+        int c1 = 20;
+        int d1 = 30;
+        if(c1 > 10 || d1 >40)
+            System.out.println("Atleast one is greater than the given number");
+
+        // Not Operator - !
+        boolean isAdult = true;
+        if(!isAdult)
+            System.out.println("Adult");
+        else
+            System.out.println("Not adult");
     }
 }
