@@ -11,7 +11,7 @@ public class Inputs {
         int age = sc.nextInt();
         System.out.println(age);
 
-        // For Strings
+       //  For Strings
         System.out.println(" Please enter your name :");
         String name = sc.next();  // ==> next will only print one word even if you pass an entire statement
         System.out.println(name);
@@ -19,8 +19,8 @@ public class Inputs {
 
         // To print entire line ==> use sc.nextline
         System.out.println("Please enter address :");
-        String line =  sc.nextLine();
-        System.out.println(line);
+        String sentence =  sc.nextLine();
+        System.out.println(sentence);
 
     }
 }
