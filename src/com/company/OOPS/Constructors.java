@@ -32,6 +32,10 @@ class Shop {
      * It creates a new object by initializing the object with the instance of the same class.
      */
 
+    public Shop(Shop shop2) {
+        this.items = shop2.items;
+        this.quantity = shop2.quantity;
+    }
 
     public void details() {
         System.out.println(this.items);
@@ -42,7 +46,12 @@ class Shop {
 public class Constructors {
     public static void main(String[] args) {
         Shop shop = new Shop("soap", 16);
-        shop.details();
+
+        /**
+         * We haven't declare teh properties of shop2 simply copied 1st shop into shop 2
+         */
+        Shop shop2 = new Shop(shop);
+        shop2.details();
 
     }
 
