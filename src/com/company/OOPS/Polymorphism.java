@@ -7,7 +7,6 @@ package com.company.OOPS;
  * In Java polymorphism is mainly divided into two types:
  * Compile-time Polymorphism
  * Runtime Polymorphism
- * <p>
  * Compile-time polymorphism - type of polymorphism is achieved by function overloading
  * Method Overloading: When there are multiple functions with the same name but different parameters then these functions are said to be overloaded.
  */
