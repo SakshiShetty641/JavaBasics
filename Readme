@@ -7,3 +7,18 @@ Methods - Task that needs to be executed
 Destructor ==> destructor in Java? It is a special method that automatically gets called when an object is no longer used.
 When an object completes its life-cycle the garbage collector deletes that object and deallocates or releases the memory occupied by the object.
 
+
+Access Modifiers
+public - accessible to all
+default - no need to specify
+protected - The protected access modifier is accessible within package and outside the package but through inheritance only.
+private - The methods or data members declared as private are accessible only within the class in which they are declared. To make it access we need to
+use getters and setters
+
+
+Encapsulation vs Data Abstraction
+
+Encapsulation is data hiding(information hiding) while Abstraction is detailed hiding(implementation hiding).
+While encapsulation groups together data and methods that act upon the data, data abstraction deal
+with exposing the interface to the user and hiding the details of implementation.
+
